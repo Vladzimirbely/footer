@@ -12,6 +12,7 @@ html {
 body {
     height: 100%;
     font-size: 1.6rem;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .wrapper {
@@ -28,7 +29,7 @@ body {
 
 .container {
     width: 100%;
-    padding: 0 70px;
+    padding: 0 11.2rem;
     margin: 0 auto;
 }
 
@@ -37,7 +38,7 @@ body {
     display: block;
     position: relative;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 8rem;
     overflow: hidden;
     color: #5b5b5b;
 }
@@ -74,19 +75,19 @@ body {
     align-items: center;
     border-radius: 25px;
     margin: 0 auto;
-    margin-top: 27px;
+    margin-top: 4.2rem;
     background-color: #25ace4;
 }
 
 .panel i {
     font-size: 60px;
-    margin-left: 10px;
+    margin-left: 1.6rem;
     color: #ffffff;
 }
 
 .panel a {
     font-size: 22px;
-    padding: 0 10px;
+    padding: 0 1.6rem;
     border-right: 1px solid #065675;
     text-decoration: none;
     color: #ffffff;
@@ -98,25 +99,26 @@ body {
 
 small {
     font-size: 14px;
-    line-height: 18px;
     display: block;
     text-transform: uppercase;
 }
 
 .middle-panel {
     max-width: 100%;
-    margin-top: 50px;
+    height: 100%;
+    display: flex;
+    padding: 1.6rem 4.3rem;
+    margin-top: 8rem;
     background-color: #25ace4;
 }
 
 .left-panel {
-    width: 140px;
-    margin: 26px 70px;
+    width: 30%;
 }
 
 .left-panel p {
     font-size: 26px;
-    padding: 12px 0;
+    padding: 0.75rem 0;
     box-sizing: border-box;
     border-bottom: 1px solid #065675;
     color: #ffffff;
@@ -125,8 +127,36 @@ small {
 .left-panel a {
     font-size: 11px;
     display: block;
-    margin: 17px 0;
+    margin: 1rem 0;
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
+}
+
+.center-panel {
+    width: 40%;
+    margin: 0 3.75rem;
+}
+
+.center-header {
+    font-size: 26px;
+    padding: 0.75rem 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #065675;
+    color: #ffffff;
+}
+
+.image-world {
+    margin-top: 3.2rem;
+    margin-right: 3.2rem;
+    float: left;
+}
+
+.info {
+    margin: 3.2rem;
+    color: #ffffff;
+}
+
+.info p:nth-child(2n) {
+    margin-bottom: 0.8rem;
 }
