@@ -113,10 +113,12 @@ small {
 }
 
 .left-panel {
-    width: 30%;
+    width: 15%;
 }
 
-.left-panel p {
+.left-header,
+.center-header,
+.right-header {
     font-size: 26px;
     padding: 0.75rem 0;
     box-sizing: border-box;
@@ -134,29 +136,65 @@ small {
 }
 
 .center-panel {
-    width: 40%;
+    width: 42%;
     margin: 0 3.75rem;
 }
 
-.center-header {
-    font-size: 26px;
-    padding: 0.75rem 0;
-    box-sizing: border-box;
-    border-bottom: 1px solid #065675;
-    color: #ffffff;
-}
-
 .image-world {
-    margin-top: 3.2rem;
+    margin-top: 1rem;
     margin-right: 3.2rem;
     float: left;
 }
 
 .info {
-    margin: 3.2rem;
+    font-size: 11px;
+    margin: 1rem 0;
     color: #ffffff;
 }
 
 .info p:nth-child(2n) {
     margin-bottom: 0.8rem;
+}
+
+.right-panel {
+    width: 43%;
+}
+
+.form {
+    width: 100%;
+    float: left;
+}
+
+.form div {
+    font-size: 14px;
+    padding: 1rem 0;
+    clear: both; 
+    color: #ffffff;
+}
+
+.form label {
+    width: 30%;
+    float: left;
+}
+
+.form input {
+    width: 70%;
+    height: 29px;
+    border-radius: 3px;
+    border: none;
+}
+
+.last input {
+    height: 119px;
+}
+
+.submit {
+    font-size: 14px;
+    width: 77px;
+    height: 30px;
+    margin-left: 30%;
+    border-radius: 3px;
+    border: 2px solid #94b3c1;
+    text-transform: uppercase;
+    color: #0784b6;
 }
